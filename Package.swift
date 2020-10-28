@@ -39,7 +39,7 @@ let package = Package(
     ],
     targets: [
         .target(name: "BFKit", exclude: []),
-        .testTarget(name: "BFKitTests", dependencies: ["BFKit"], exclude: ["Apple"])
+        .testTarget(name: "BFKitTests", dependencies: ["BFKit"], exclude: [])
     ],
     swiftLanguageVersions: [.v5]
 )
